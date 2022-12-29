@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Page.utils.SeleniumDriver"/>
+      <class name="steps.BeforeActions"/>
+      <class name="steps.AfterActions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
